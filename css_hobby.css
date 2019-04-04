@@ -1,0 +1,147 @@
+/*-----------------------------------------------------------*/
+
+/*Nützlich Hobby*/
+
+.TeilÜberschrift {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	
+	text-align: left;
+	font-size: 30px;
+}
+
+.Vorwort {	
+	width: 100%;
+	height: auto;
+	
+	text-align: left;
+	font-size: 27px;
+}
+
+.Bild {
+	height: auto;
+	margin-right: 10px;
+	
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	
+}
+
+.Text {
+	width: 100%;
+	height: auto;	
+	
+	font-size: 26px;
+}
+
+.TextDest {
+	width: 100%;
+	height: auto;	
+	
+	font-size: 29px;
+}
+/*-----------------------------------------------------------*/
+
+/*Hobby*/
+
+.Destiny {
+	width: 100%;
+	height: auto;
+	
+	display: flex;
+	flex-flow: row wrap;
+	
+	text-align: left;
+}
+
+	
+.Undertale {
+	width: 100%;
+	height: auto;
+	
+	display: flex;
+	flex-flow: column wrap;
+
+	text-align: left;
+}
+
+.CC {
+	width: 100%;
+	height: auto;
+	
+	display: flex;
+	flex-flow: column wrap;
+	
+	text-align: left;
+}
+
+.scrollDest {
+	width: auto;
+	height: 240px;
+	margin-right: 10px;
+	
+	overflow: auto;
+	border: 2px inset #68d1a5;
+	
+	background: #68d1a5;
+}
+
+.coppyright {
+	width: 100%;
+	height: auto;
+	
+	font-size: 30px;
+	font-weight: 900;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Bilder Hobby*/
+
+
+
+
+img.Dest {
+	min-width: 100px;
+	max-width: 98%;
+	height: 360px ;
+	margin-bottom: 10px;
+	
+	border: 3px outset 68d1a5;
+}
+
+img.Unde {
+	min-width: 100px;
+	max-width: 98%;
+	max-height: 200px;
+	
+	object-fit: fill;
+	border: 3px outset 68d1a5;
+}
+
+img.Clash {
+	min-width: 100px;
+	max-width: 98%;
+	height: 260px;
+	
+	border: 3px outset 68d1a5;
+}
+
+/*-----------------------------------------------------------*/
+
+a.secret{
+	color: #68d1a5;
+	text-decoration: none;
+	cursor: default;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*-----------------------------------------------------------*/

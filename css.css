@@ -1,0 +1,73 @@
+/*-----------------------------------------------------------*/
+	
+body {
+	margin: 5.2rem 10px 2.8rem 10px;
+	
+	background-color: #84dee3;
+	font-family: "Georgia";
+	font-size: 26px;
+	
+	font-weight: 400;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Copyright*/
+footer {
+	position: fixed;
+	bottom: 0 ;
+	left: 0;
+	width: 100%;
+	max-height: 60%;
+	min-height: 30px;
+	margin-bottom: 0px;
+	
+	background-color: #3eedb0;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	
+	/*Für keine Markierungen (Aus dem Internet)*/
+	
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+br.copy {
+	margin-bottom: 0;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Überschrift*/
+.Überschrift {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	
+	font-family: "Times New Roman";
+	font-size: 36px;
+	text-shadow: 2px 1px #d9d9d9;
+	color: black;
+}
+
+/*-----------------------------------------------------------*/
+
+img {	
+	object-fit: cover;
+	
+	/*Für keine Markierungen (Aus dem Internet)*/
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*-----------------------------------------------------------*/

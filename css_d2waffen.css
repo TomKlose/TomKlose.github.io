@@ -1,0 +1,23 @@
+.waffen{
+	text-align: center;
+	font-family: arial;
+}
+
+.waffen ul{
+	list-style: none;
+	padding: 0;
+}
+
+h4{
+	text-align: center;
+}
+
+img {
+	min-width: 100px;
+	max-width: 98%;
+	height: 360px ;
+	margin-bottom: 10px;
+	
+	object-fit: fill;
+	border: 3px outset 68d1a5;
+}

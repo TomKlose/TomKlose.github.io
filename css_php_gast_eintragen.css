@@ -1,0 +1,75 @@
+/*-----------------------------------------------------------*/
+
+body {
+	margin-top: 6.2rem;
+	
+	/*Für keine Markierungen (Aus dem Internet)*/
+	
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+/*-----------------------------------------------------------*/
+
+.eintragen{
+
+}
+
+textarea{
+	resize: none;
+	
+	font-size: 1rem;
+	box-sizing: border-box;
+	border: 4px groove #b35f60;
+	border-radius: 10px;
+	background-color: #dfe3dc ;
+}
+
+input[type=text]{
+	background-color: #dfe3dc ;
+	padding: 4px;
+	font-size: 1rem;
+	border: 4px groove #b35f60;
+	border-radius: 10px;
+}
+
+input[type=submit]{
+	
+	width: auto;
+	height: auto;
+	padding: 10px 20px;
+	margin: 0;
+	
+	font-size: 2rem;
+	background-color: #d1452c;
+	cursor: pointer;
+	border: 4px outset red;
+	border-radius: 10px;
+	
+}
+
+input[type=submit]:active{
+	border: 4px inset red;
+}
+
+a.zuruck{
+	margin-top: 5px;
+	padding: 4px;
+	color: #3da377;
+	text-decoration: none;
+	background-color: #84dee3;
+	border: 2px solid #3da377;
+	border-radius: 20px;
+}
+
+a.zuruck:hover{
+	background-color: #7fd3d6;
+}
+
+a.zuruck:active{
+	border: 2px inset #3da377;
+}

@@ -1,0 +1,87 @@
+/*-----------------------------------------------------------*/
+
+/*Nützlich Wissen*/
+
+.TeilÜberschrift {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	text-align: left;
+	font-size: 30px;
+}
+
+.Vorwort {	
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	
+	text-align: left;
+	font-size: 27px;
+}
+
+.Bild {
+	height: auto;
+	margin-bottom: 10px;
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.Text {
+	width: 100%;
+	height: auto;	
+	margin-bottom: 10px;
+	
+	font-size: 26px;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Wissen*/
+.Alles {
+	width: 100%;
+	height: auto;
+	
+	text-align: center !important;
+}
+
+.Ham {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;	
+}
+
+.HamTer {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Bilder Wissen*/
+
+img.HamBild {
+	min-width: 100px;
+	max-width: 98%;
+	height: 380px;
+	margin: 20px;
+	
+	object-fit: fill;
+	border: 3px inset 68d1a5;
+}
+
+img.HamTerBild {
+	min-width: 100px;
+	max-width: 98%;
+	height: 340px;
+	margin: 10px;
+	
+	object-fit: fill;
+	border: 3px inset 68d1a5;
+}
+
+/*-----------------------------------------------------------*/

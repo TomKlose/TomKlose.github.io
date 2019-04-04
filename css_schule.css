@@ -1,0 +1,82 @@
+/*-----------------------------------------------------------*/
+
+/*Nützlich Schule*/
+
+.TeilÜberschrift {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	text-align: left;
+	font-size: 30px;
+}
+
+.Vorwort {	
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	
+	text-align: left;
+	font-size: 27px;
+}
+
+.Bild {
+	height: auto;
+	margin-bottom: 10px;
+	
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+}
+
+.Text {
+	width: 100%;
+	height: auto;	
+	margin-bottom: 10px;
+	
+	font-size: 26px;
+}
+/*-----------------------------------------------------------*/
+
+/*Schule*/
+
+.NeuSchule {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	
+	text-align: left;
+}
+
+.AltSchule {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	
+	text-align: left;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Bilder Schule*/
+
+img.Schule {
+	min-width: 100px;
+	max-width: 98%;
+	height: 250px;
+	margin: 10px;
+	
+	border: 1px outset 68d1a5;
+}
+
+img.Schule2 {
+	min-width: 100px;
+	max-width: 98%;
+	height: 320px;
+	margin: 10px;
+	
+	border: 1px outset 68d1a5;
+}
+
+/*-----------------------------------------------------------*/

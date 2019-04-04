@@ -1,0 +1,278 @@
+/*-----------------------------------------------------------*/
+
+body {
+	
+	/*Für keine Markierungen (Aus dem Internet)*/
+	
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+
+
+/*Hauptrechner*/
+
+.rechner {
+	width: 60%;
+	margin: 10rem auto;
+	height: auto;
+	
+	text-align: center;
+	font-size: 2rem;
+	font-family: "Arial";
+	
+	border: 5px outset #5c5b5c;
+	background: black;
+}
+
+/*-----------------------------------------------------------*/
+
+.rechner_reiheEins {
+	display: flex;
+}
+
+	#rechner_button7 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_button8 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_button9 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_buttonClear {
+		flex: 2 1 200px;
+	}
+
+/*-----------------------------------------------------------*/
+	
+.rechner_reiheZwei {
+	display: flex;
+}
+
+	#rechner_button4 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_button5 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_button6 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_buttonPlus {
+		flex: 2 1 200px;
+	}
+
+/*-----------------------------------------------------------*/
+
+.rechner_reiheDrei {
+	display: flex;
+}
+
+	#rechner_button1 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_button2 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_button3 {
+		flex: 1 2 200px;
+	}
+
+	#rechner_buttonMinus {
+		flex: 2 1 200px;
+	}
+
+/*-----------------------------------------------------------*/
+
+.rechner_reiheVier {
+	display: flex;
+}
+
+	#rechner_button0 {
+		flex: 1 1 200px;
+	}
+
+	#rechner_buttonMal {
+		flex: 1 1 200px;
+	}
+	
+	#rechner_buttonGeteielt{
+		flex: 1 1 200px;
+	}
+	
+/*-----------------------------------------------------------*/
+
+.rechner_reiheFünf {
+	display: flex;
+}
+	
+	#rechner_buttonGleich {
+		flex: 1 1 200px;
+	}
+
+/*-----------------------------------------------------------*/
+
+/*Zahlen Button*/
+
+.rechner_buttonZahl {
+	margin: 5px;
+	
+	background-color: #42e665;
+	font-size: 3rem;
+	cursor: pointer;
+	border: 3px outset black;
+	border-radius: 10px;
+}
+
+.rechner_buttonZahl:hover {
+	background-color: #b0ed78;
+}
+
+.rechner_buttonZahl:active {
+	background-color: #b0ed78;
+	border: 3px inset #b0ed78;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Funktion Button*/
+
+.rechner_buttonFunk {
+	margin: 5px;
+	
+	background-color: #3ed65a;
+	font-size: 2.6rem;
+	cursor: pointer;
+	border: 3px outset black;
+	border-radius: 10px;
+}
+
+.rechner_buttonFunk:hover {
+	background-color: #b0ed78;
+}
+
+.rechner_buttonFunk:active {
+	background-color: #b0ed78;
+	border: 3px inset #b0ed78;
+}
+
+/*-----------------------------------------------------------*/
+
+/*Ergebnis*/
+
+.rechner_zählen {
+	width: 98%;
+	margin: 5px;
+	
+	
+	font-size: 2rem;
+	border: 2px solid black;
+	text-align: right;
+	background-color: #5043c9;
+	
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.PHP_Ergebnis {
+	margin: 5px;
+	padding: 5px;
+	
+	font-size: 3rem;
+	background-color: #57a5c9;
+	text-align: right;
+	border: 2px solid black;
+	
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/*-----------------------------------------------------------*/
+
+@media screen and (max-width: 600px){
+	.rechner {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	
+	}
+
+	.rechner_buttonZahl {
+		font-size: 2rem;
+		border: 2px outset black;
+	}
+	
+	.rechner_buttonZahl:active {
+		border: 2px inset #b0ed78;
+	}
+	
+	.rechner_buttonFunk {
+		font-size: 2rem;
+		border: 2px outset black;
+	}
+	
+	.rechner_buttonFunk:active {
+		border: 2px inset #b0ed78;
+	}
+	
+	.PHP_Ergebnis {
+		font-size: 2.5rem;
+	}
+	
+	.rechner_zählen {
+		margin: 5px;
+		
+		font-size: 1.7rem;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.rechner {
+		width: 98%;
+		height: auto;
+		
+		margin: auto;
+		
+	}
+	
+	.rechner_buttonZahl {
+		font-size: 1rem;
+		border: 1px outset black;
+	}
+	
+	.rechner_buttonZahl:active {
+		border: 1px inset #b0ed78;
+	}
+	
+	.rechner_buttonFunk {
+		font-size: 1rem;
+		border: 1px outset black;
+	}
+	
+	.rechner_buttonFunk:active {
+		border: 1px inset #b0ed78;
+	}
+	
+	.PHP_Ergebnis {
+		font-size: 2rem;
+	}
+	
+	.rechner_zählen {
+		margin: 5px;
+		
+		font-size: 1.3rem;
+	}
+}

@@ -1,0 +1,204 @@
+/*--------------------------------------------------------*/
+
+.logo {
+	margin: 10px 10px;
+	padding-right: 10px;
+	
+	font-size: 3.2rem;
+	text-align: right;
+}
+
+/*--------------------------------------------------------*/
+
+/*Grund Leiste*/
+
+header {
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+	
+	background-color: #3eedb0;
+	text-align: center;
+	position: fixed;
+	z-index: 99999;
+	
+	/*Für keine Markierungen (Aus dem Internet)*/
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/*--------------------------------------------------------*/
+
+/*Leiste*/
+
+nav {
+	top: 100%;
+	left: 0;
+	width: 100%;
+	
+	transform: scale(1, 0);
+	transform-origin: top;
+	
+	position: absolute;
+	text-align: left;
+	background-color: #3eedb0;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: left;
+	align-items: center;
+	
+	margin: 0; 
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	margin: 10px 0 10px 10px;
+}
+
+/*--------------------------------------------------------*/
+
+/*Link*/
+
+nav a {
+	padding: 2px;
+	margin: 5px 0;
+
+	color: white;
+	text-decoration: none;
+	font-size: 1.3rem;
+	background-color:#4b8ee0;
+	border: 2px outset black;
+	
+	text-transform: uppercase;
+	opacity: 0;
+	transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+	background-color: #ff5d54;
+}
+
+nav a:active {
+	border: 2px inset black;
+}
+
+/*--------------------------------------------------------*/
+
+/*Klassen*/
+
+.nav-toggle {
+	display: none;
+}
+
+.nav-toggle-label {
+	top: 0;
+	left: 0;
+	margin-left: 1rem;
+	height: 100%;
+	
+	position: absolute;
+	display: flex;
+	align-items: center;
+}
+
+.nav-toggle-label span, .nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	
+	width: 3rem;
+	height: 4px;
+
+	position: relative;
+	display: block;
+	background: white;
+}
+
+/*--------------------------------------------------------*/
+
+/*Burger*/
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	content: '';
+	position: absolute;
+}
+
+.nav-toggle-label span::before {
+	bottom: 9px;
+}
+
+.nav-toggle-label span::after{
+	top: 9px;
+}
+
+/*--------------------------------------------------------*/
+
+/*Scrollen*/
+
+.scroll {
+	width: auto;
+	height: auto;
+	margin: 5px 10px;
+	
+	overflow: auto;
+	
+	background-color: #3eedb0;
+}
+
+/*--------------------------------------------------------*/
+
+/*Ausfahren*/
+
+.nav-toggle:checked ~ nav {
+	transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+	opacity: 1;
+	transition: opacity 200ms ease-in-out 50ms;
+}
+
+.logo {
+	text-align: right;
+	margin-right: 10px;
+}
+
+/*--------------------------------------------------------*/
+
+@media (max-width: 500px) {
+	body {
+		margin: 5.5rem 10px 2.8rem 10px;
+	}
+	
+	.logo {
+		margin: 10px 0;
+		
+		font-size: 2.5rem;
+		text-align: right;
+	}
+}
+
+
+@media (max-width: 400px) {
+	body {
+		margin: 4.8rem 10px 2.8rem 10px;
+	}
+	
+	.logo {
+		margin: 10px 0;
+		
+		font-size: 2rem;
+		text-align: right;
+	}
+}
+
+/*--------------------------------------------------------*/
