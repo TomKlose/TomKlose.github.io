@@ -127,7 +127,7 @@
 				<?= $fehler; ?> <br> <br>
 				
 				Name <br>
-				<input type="text" name="name" class="lil"> <br> <br>
+				<input type="text" name="name"> <br> <br>
 				
 				Dein Kommentar <br>
 				<textarea name="text" class="text" rows="10" cols="30"> </textarea> <br> <br>
